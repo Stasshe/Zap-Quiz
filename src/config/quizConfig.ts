@@ -71,10 +71,10 @@ export const SCORING = {
   SOLO_MULTIPLIER: 0.3, // 一人プレイ時の経験値倍率 (0~1)
 
   // 正解時の得点
-  CORRECT_ANSWER_SCORE: 50,
+  CORRECT_ANSWER_SCORE: 40,
 
   // 不正解時の減点
-  INCORRECT_ANSWER_PENALTY: -20,
+  INCORRECT_ANSWER_PENALTY: -50,
 
   SCORE_PER_EXP: 10, // 1経験値あたりのスコア（10ポイントで1経験値）
 
@@ -85,7 +85,7 @@ export const AI = {
   
   MODEL_NAME: 'gemini-2.0-flash', // AIモデル名
 
-  MAXRETRYS: 3, // AIの最大リトライ回数
+  MAXRETRYS: 2, // AIの最大リトライ回数
 }
 
 
