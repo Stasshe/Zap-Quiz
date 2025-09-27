@@ -83,9 +83,9 @@ export const SCORING = {
 
 export const AI = {
   
-  MODEL_NAME: 'gemini-1.5-flash', // AIモデル名
+  MODEL_NAME: 'gemini-2.0-flash', // AIモデル名
 
-  MAXRETRYS: 2, // AIの最大リトライ回数
+  MAXRETRYS: 3, // AIの最大リトライ回数
 }
 
 
